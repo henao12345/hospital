@@ -1,3 +1,6 @@
+import static android.os.Build.VERSION_CODES.R;
+
+import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +46,7 @@ public class PatientAdapter extends RecyclerView.Adapter<PatientAdapter.ViewHold
             super(itemView);
             firstNameTextView = itemView.findViewById(R.id.firstNameTextView);
             lastNameTextView = itemView.findViewById(R.id.lastNameTextView);
-            ageTextView = itemView.findViewById(R.id.ageTextView);
+            ageTextView = itemView.findViewById(Build.VERSION_CODES.R);
             genderTextView = itemView.findViewById(R.id.genderTextView);
         }
 

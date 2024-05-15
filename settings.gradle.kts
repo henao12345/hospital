@@ -23,3 +23,4 @@ rootProject.name = "Hospital"
 include(":app")
 include(":app:patientmodule")
 include(":app:doctor")
+include(":app:administrador")

@@ -41,7 +41,7 @@ public class Patient {
         return age;
     }
 
-    public Gender getGender() {
+    public CharSequence getGender() {
         return gender;
     }
 
